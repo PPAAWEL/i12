@@ -1,0 +1,63 @@
+table{
+	border-top-left-radius: 15px;
+	border-top-right-radius:15px;
+	border-bottom-left-radius:15px;
+	border-bottom-right-radius:15px;
+	width:100%;
+	background-color:#dce0e3;
+	border-style:double;
+	text-align: center;
+
+}
+.parzyste{
+	
+	background-color:#ff7799;
+	color:white;
+}
+.inne{
+	color:black;
+	font-size:30;
+	
+}
+div{
+	
+	width:27%;
+	height:500px;
+	background-color:#334f6b;
+}
+body{
+	
+	background-color:#dce0e3;
+}
+p{
+	font-size:45px;
+	text-align:center;
+	color:white;
+}
+article{
+	text-align:center;
+	color:white;
+	font-size:32px;
+	
+}
+a:visited {
+  color: white;
+}
+.warzywo{
+	color:lime;
+	
+}
+h120{
+	color:lime;
+	
+}
+.vege{
+	color:green;
+	
+}
+.lewa{
+	font-size:170%;
+	font-weight:bold;
+	font-style:italic;
+	
+}
