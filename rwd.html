@@ -1,0 +1,138 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <meta charset="utf-8"/>
+  <title>Responsive Web - Basic Code</title>
+  </head>
+  <body>
+
+
+  <div id="wrapper">
+
+
+  <header>
+
+  <h1>TULIPS</h1>
+
+  <!—Start navigation -->
+
+  <nav>
+
+  </nav>
+
+
+  <div id="banner">
+  <img src="zdjecie.jpg" alt="banner" />
+  </div>
+
+
+
+  </header>  
+
+ 
+
+  <section id="main">
+
+  <h1>Responsive web design</h1>
+
+  <p> (RWD) – technika takiego projektowania strony WWW, aby jej układ dostosowywał się samoczynnie do rozmiaru okna przeglądarki, na której jest wyświetlany np. przeglądarki, smartfonów czy tabletów. Strona utworzona tą techniką jest uniwersalna: wyświetla się dobrze na dużych ekranach oraz na smartfonach i tabletach. Responsywność to sposób myślenia przy pomocy proporcji i umiejętność tworzenia najprostszych projektów rozbudowywanych później o kolejne, dodatkowe elementy (nurt content first). Media queries przy tego typu myśleniu stanowią ostateczne narzędzie, którego dość rzadko się używa.</p>
+
+  </section>
+  
+                   
+
+  <aside>
+  <h1>RWD</h1>
+  <p>W dzisiejszych czasach przeglądamy Internet nie tylko siedząc w domu przed biurkiem, ale też korzystając ze smartfona jadąc autobusem, spoglądając na smartwatcha albo przesuwając palcem po tablecie. Mnogość typów urządzeń, ich rozdzielczości wydaje się oszałamiająca i sprawia wrażenie, że zaprojektowanie i zakodowanie strony, która będzie się na każdym prawidłowo wyświetlać, wydaje się niewykonalne.
+
+Bardzo ważne jest zatem, aby już na etapie projektowania, a także później kodowania, zadbać o to, aby strona była responsywna. Termin Responsive Web Design istnieje w obiegu już od 2010 roku. Od tamtej pory zgromadzono całkiem spory zasób wiedzy na temat tego, jak dostosowywać strony do wyświetlania za pomocą różnych mediów.
+
+ </p>
+  </aside>
+
+
+  <footer>
+
+  Autor Paweł Solecki    <a href="https://ppaawel.github.io/i12/rwd.html"> Link do githuba</a>
+
+  </footer> 
+
+ 
+  </div>
+
+  </body>
+  
+
+
+             <style>
+
+  
+  #wrapper {
+           width: 96%; 
+           max-width: 1200px;
+           margin: auto;
+           padding: 2%;
+           }
+  
+           #main {
+                    width: 60%;
+                    margin-right: 5%;
+                    float: left;
+                    } 
+
+           aside {
+                    width: 32%;
+                    float: right;
+                    background: #fae1bd;
+                    padding: 1%;
+                    }
+
+           footer {
+                    float: left;
+                    clear:left;
+                    margin-top: 15px;
+                    margin-bottom: 15px;
+                    width: 100%;
+                    height:auto;
+                    border-top: 3px solid #da000e;
+                    padding-top:1%;
+                    }       
+
+ 
+  header h1 {
+           height: 70px;
+           width: 160px;
+           float: left;
+           display: block;
+           background: url(../images/tulip-header.jpg) 0 0 no-repeat;
+           text-indent: -9999px;
+           color: #000000;
+           }
+
+
+  header nav {
+           float: right;
+           margin-top: 40px; 
+           }
+
+           header nav li {
+                    display: inline;
+                    margin-left: 15px;
+                    }
+
+  #goTo {
+           display: none;
+           }
+           #goTo li {
+                    background: #f7b0b0;
+                    }
+                   
+  #banner {
+           float: left;
+           margin-bottom: 15px;
+           width: 100%;
+           }
+
+         
+                    }</style>
+  </html>
