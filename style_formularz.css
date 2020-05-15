@@ -1,0 +1,111 @@
+header{
+	
+	background-color:green;
+	height: 67px;
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+}
+#gora{
+	background-color: blue;
+	position:relative;
+	paddin-left:30%;
+	paddin-right:30%;
+	top:50px;
+	height:150px;
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+#lewy{
+	height:150px;
+	background-color:pink;
+	float:left;
+	width:30%;
+	margin-left:20%;
+	position:relative;
+	right:10px;
+	top:70px;
+	height:500px;
+	
+}
+#prawy{
+	height:150px;
+	background-color:red;
+	float:left;
+	width:30%;
+	height:500px;
+	
+	position:relative;
+	left:10px;
+	top:70px;
+}
+body{
+	background-image:url(tło.jpg);
+}
+input[type=text]{
+	
+	border-radius: 4px;
+	cursor: pointer;
+	display: inline-block;
+	padding: 6px 15px;
+	
+	
+}
+input[type=text]:focus {
+  background-color: lightblue;
+}
+input[type=submit]{
+	width:200px;
+	
+}
+input[type=reset]{
+	background-color: #1c87c9;
+        border: none;
+        color: white;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+	
+}
+div{
+	
+	border-radius:6px;
+}
+ .button {
+        background-color: #1c87c9;
+        border: none;
+        color: white;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+.dalej{
+	
+	font-size:40px;
+	color:white;
+	text-align:center;
+	
+	margin-right: auto;
+}
+.elo{
+	
+	font-size:30px;
+	margin:30px;
+}
+.strz{
+	font-size:150px;
+	margin:30px;
+	color:lightgreen;
+	text-align:center;
+	
+}
